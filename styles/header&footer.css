@@ -1,12 +1,12 @@
 @font-face {
     font-family: Graphik;
-    src: url(../fonts/GraphikLCG-Regular.ttf);
+    src: url("../fonts/GraphikLCG-Regular.ttf");
     font-weight: 400;
 }
 
 @font-face {
     font-family: Graphik;
-    src: url(../fonts/GraphikLCG-Semibold.ttf);
+    src: url("../fonts/GraphikLCG-Semibold.ttf");
     font-weight: 600;
 }
 
@@ -27,12 +27,14 @@
 }
 
 .fix-size {
-    width: 1290px;
+    max-width: 1320px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header > .fix-size {
-    height: 95px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     align-items: center;
     justify-content: space-between;
 }
@@ -46,7 +48,6 @@
 .header__logo {
     display: block;
     width: 130px;
-    height: 28px;
 }
 
 .header__nav_list {
@@ -110,7 +111,7 @@
 
 .case_img {
     width: 300px;
-    height: 300px;
+    height: auto;
     margin: 30px 0;
 }
 
